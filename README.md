@@ -58,9 +58,9 @@ Você tem liberdade para escolher as tecnologias que preferir. Algumas sugestõe
 
 ## 📊 Sugestão de Estrutura de Dados
 
-* **users** (id, name, email, password\_hash, createdAt, updatedAt)
-* **rooms** (id, name, capacity, description, createdAt, updatedAt)
-* **reservations** (id, user\_id, room\_id, startReservation, endReservation, status, createdAt, updatedAt)
+* **users** (id, name, email, password\_hash, created_at, updated_at)
+* **rooms** (id, name, capacity, description, created_at, updated_at)
+* **reservations** (id, user\_id, room\_id, start_reservation, end_reservation, status, created_at, updated_at)
 
 Relacionamentos:
 
